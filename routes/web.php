@@ -12,6 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('master');
+});
+Route::get('/sample', function () {
+    return view('sample');
 });
 Route::resource('items', 'ItemController');

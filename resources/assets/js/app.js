@@ -8,9 +8,9 @@ import axios from 'axios';
 Vue.use(VueAxios, axios);
 
 import App from './App.vue';
-import CreateItem from './components/CreateItem.vue';
-import DisplayItem from './components/DisplayItem.vue';
-import EditItem from './components/EditItem.vue';
+import CreateItem from './components/crudsample/CreateItem.vue';
+import DisplayItem from './components/crudsample/DisplayItem.vue';
+import EditItem from './components/crudsample/EditItem.vue';
 
 const routes = [
     {
