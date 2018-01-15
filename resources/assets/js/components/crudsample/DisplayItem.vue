@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="page-header page-header-default alpha-pink">
+        <div class="page-header page-header-default">
             <div class="page-header-content">
                 <div class="page-title pt-30 pb-10">
                     <h4><i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">Home</span> - Dashboard</h4>
@@ -8,7 +8,7 @@
             </div>
 
             <div class="breadcrumb-line">
-                <ul class="breadcrumb pt-10 pb-5">
+                <ul class="breadcrumb pb-5" style="padding-top: 7px">
                     <li><a href="index.html"><i class="icon-home2 position-left"></i> Home</a></li>
                     <li class="active">Dashboard</li>
                 </ul>

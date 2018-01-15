@@ -1,4 +1,4 @@
-<div class="sidebar sidebar-main sidebar-fixed bg-slate-800">
+<div class="sidebar sidebar-main sidebar-fixed">
     <div class="sidebar-content">
 
         <div class="sidebar-user">

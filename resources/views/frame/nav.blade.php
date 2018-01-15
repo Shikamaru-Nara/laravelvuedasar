@@ -1,4 +1,4 @@
-<div class="navbar navbar-inverse navbar-fixed-top bg-pink-800">
+<div class="navbar navbar-inverse navbar-fixed-top bg-teal-600">
     <div class="navbar-header">
 {{--        <a class="navbar-brand" href="index.html"><img src="{{asset('template/assets/images/logo_light.png')}}" alt=""></a>--}}
         <div style="display: block;width: 100%;padding:0 20px;">

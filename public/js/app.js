@@ -16575,7 +16575,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "page-header page-header-default alpha-pink" }, [
+    _c("div", { staticClass: "page-header page-header-default" }, [
       _vm._m(0),
       _vm._v(" "),
       _c("div", { staticClass: "breadcrumb-line" }, [
@@ -16680,16 +16680,20 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "breadcrumb pt-10 pb-5" }, [
-      _c("li", [
-        _c("a", { attrs: { href: "index.html" } }, [
-          _c("i", { staticClass: "icon-home2 position-left" }),
-          _vm._v(" Home")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "active" }, [_vm._v("Dashboard")])
-    ])
+    return _c(
+      "ul",
+      { staticClass: "breadcrumb pb-5", staticStyle: { "padding-top": "7px" } },
+      [
+        _c("li", [
+          _c("a", { attrs: { href: "index.html" } }, [
+            _c("i", { staticClass: "icon-home2 position-left" }),
+            _vm._v(" Home")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "active" }, [_vm._v("Dashboard")])
+      ]
+    )
   },
   function() {
     var _vm = this
